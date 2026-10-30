@@ -1,0 +1,7 @@
+services:
+  landing:
+    build: .
+    container_name: my-landing
+    restart: unless-stopped
+    ports:
+      - "8083:80"
